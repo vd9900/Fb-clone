@@ -1,0 +1,22 @@
+.fs-0{
+font-size: 3rem;
+}
+.fs-7{
+    font-size: .9rem;
+
+}
+.bg-new{
+    background-color: #dfe5ee;
+}
+.w-60{
+    min-width: 200px;
+    min-height: 40px;
+}
+.w-70{
+    width:100%;
+    max-width: 420px;
+}
+/* DRY */
+.clg{
+    display: none;
+}
