@@ -12,204 +12,245 @@
 </head>
 
 <body class="bg-new">
-    <section class="page-1 clg" >
+    <section class="page-1 clg">
 
         <!-- starting page content-->
         <div class="container d-flex flex-column flex-lg-row justify-content-evenly mt-4 pt-lg-5">
-        <!-- Quotes -->
-        <div class="container text-center text-lg-start ms-lg-5 ps-lg-5">
-            <h1 class="text-primary fw-bold fs-0">Facebook</h1>
-            <p class="fs-5">Let's explore the world with our commutiy and make some friend for yourselfa with Facebook
-            </p>
-        </div>
-        <!-- Login -->
-        <div class="container my-5 my-lg-0 w-70">
-            <div class="bg-white login shadow rounded p-3 input-group-lg">
-                <input type="email" class="form-control my-3" placeholder="Email address or phone number">
-                <input type="password" class="form-control my-3" placeholder="Password">
-                <a href="#" class="">
-                    <button class="btn btn-primary w-100 my-3">
-                        Login
-                    </button>
-                </a>
-                <a href="#" class="text-decoration-none text-center">
-                    <p>
-                        Forgotten password?
-                    </p>
-                </a>
-                <hr>
-                <div class="text-center">
-                    <button class="btn btn-success btn-lg " data-bs-toggle="modal"
-                    data-bs-target="#createsignuppage"="">
-                    Create New Account
-                </button>
+            <!-- Quotes -->
+            <div class="container text-center text-lg-start ms-lg-5 ps-lg-5">
+                <h1 class="text-primary fw-bold fs-0">Facebook</h1>
+                <p class="fs-5">Let's explore the world with our commutiy and make some friend for yourselfa with
+                    Facebook
+                </p>
             </div>
-            <!-- modal for creating new account -->
-            <div class="modal fade" id="createsignuppage" tabindex="-1" aria-labelledby="createsignuppageLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- header -->
-                    <div class="modal-header pt-2 py-0">
-                        <div class=" ms-auto">
-                            <h2 class="modal-title text-center" id="createsignuppageLabel">
-                                Sign-up
-                            </h2>
-                            <p>Create new account now</p>
+            <!-- Login -->
+            <div class="container my-5 my-lg-0 w-70">
+                <div class="bg-white login shadow rounded p-3 input-group-lg">
+                    <input type="email" class="form-control my-3" placeholder="Email address or phone number">
+                    <input type="password" class="form-control my-3" placeholder="Password">
+                    <a href="#" class="">
+                        <button class="btn btn-primary w-100 my-3">
+                            Login
+                        </button>
+                    </a>
+                    <a href="#" class="text-decoration-none text-center">
+                        <p>
+                            Forgotten password?
+                        </p>
+                    </a>
+                    <hr>
+                    <div class="text-center">
+                        <button class="btn btn-success btn-lg " data-bs-toggle="modal"
+                            data-bs-target="#createsignuppage"="">
+                            Create New Account
+                        </button>
+                    </div>
+                    <!-- modal for creating new account -->
+                    <div class="modal fade" id="createsignuppage" tabindex="-1" aria-labelledby="createsignuppageLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- header -->
+                                <div class="modal-header pt-2 py-0">
+                                    <div class=" ms-auto">
+                                        <h2 class="modal-title text-center" id="createsignuppageLabel">
+                                            Sign-up
+                                        </h2>
+                                        <p>Create new account now</p>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                aria-label="Close"></button>
-                            </div>
-                            <!-- body -->
-                            <div class="modal-body px-4">
-                                <form autocomplete="off">
-                                    <!-- username -->
-                                    <div class="row">
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="First name">
+                                <!-- body -->
+                                <div class="modal-body px-4">
+                                    <form autocomplete="off">
+                                        <!-- username -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="First name">
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Last name">
+                                            </div>
                                         </div>
-                                        <div class="col">
-                                            <input type="text" class="form-control" placeholder="Last name">
+                                        <!-- email & password -->
+                                        <div>
+                                            <input type="email" class="form-control mt-4"
+                                                placeholder="Email address or phone number">
+                                            <input type="password" class="form-control my-3"
+                                                placeholder="Create password">
                                         </div>
-                                    </div>
-                                    <!-- email & password -->
-                                    <div>
-                                        <input type="email" class="form-control mt-4"
-                                        placeholder="Email address or phone number">
-                                        <input type="password" class="form-control my-3" placeholder="Create password">
-                                    </div>
-                                    <!-- DOB -->
-                                    <div>
-                                        <span class="text-muted fs-7">
-                                            Date of birth
-                                            <i class="fa-solid fa-circle-info" 
-                                            data-bs-container="body"
-                                            data-bs-toggle="popover" 
-                                            data-bs-placement="right"
-                                            data-bs-content="Right popover">
-                                        </i>
-                                    </span>
-                                    
-                                    <div class="my-3">
-                                        <input type="date" class="form-control" value="dd-mm-yyyy">
-                                    </div>
-                                    </div>
-                                    <!-- gender -->
-                                    <div class="row">
-                                        <span class="text-muted fs-7 mb-3">
-                                            Select gender
-                                            <i class="fa-solid fa-circle-info" 
-                                            data-bs-container="body"
-                                            data-bs-toggle="popover" 
-                                            data-bs-placement="right"
-                                            data-bs-content="Right popover">
-                                        </i>
-                                    </span>
-                                        <div class="col">
-                                            <input class="form-check-input" type="radio" name="gender" id="male">
-                                            <label class="form-check-label" for="male">
-                                                male
-                                            </label>
+                                        <!-- DOB -->
+                                        <div>
+                                            <span class="text-muted fs-7">
+                                                Date of birth
+                                                <i class="fa-solid fa-circle-info" data-bs-container="body"
+                                                    data-bs-toggle="popover" data-bs-placement="right"
+                                                    data-bs-content="Right popover">
+                                                </i>
+                                            </span>
+
+                                            <div class="my-3">
+                                                <input type="date" class="form-control" value="dd-mm-yyyy">
+                                            </div>
                                         </div>
-                                        <div class="col">
-                                            <input class="form-check-input" type="radio" name="gender" id="female">
-                                            <label class="form-check-label" for="female">
-                                                female
-                                            </label>
+                                        <!-- gender -->
+                                        <div class="row">
+                                            <span class="text-muted fs-7 mb-3">
+                                                Select gender
+                                                <i class="fa-solid fa-circle-info" data-bs-container="body"
+                                                    data-bs-toggle="popover" data-bs-placement="right"
+                                                    data-bs-content="Right popover">
+                                                </i>
+                                            </span>
+                                            <div class="col">
+                                                <input class="form-check-input" type="radio" name="gender" id="male">
+                                                <label class="form-check-label" for="male">
+                                                    male
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <input class="form-check-input" type="radio" name="gender" id="female">
+                                                <label class="form-check-label" for="female">
+                                                    female
+                                                </label>
+                                            </div>
+                                            <div class="col">
+                                                <input class="form-check-input" type="radio" name="gender" id="other">
+                                                <label class="form-check-label" for="other">
+                                                    other
+                                                </label>
+                                            </div>
+
                                         </div>
-                                        <div class="col">
-                                            <input class="form-check-input" type="radio" name="gender" id="other">
-                                            <label class="form-check-label" for="other">
-                                                other
-                                            </label>
+                                        <!-- descirbing something -->
+                                        <div class="text-muted fs-7 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                                         </div>
-                                        
-                                    </div>
-                                    <!-- descirbing something -->
-                                    <div class="text-muted fs-7 mt-3">
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> </div>
-                                        
+
                                     </form>
                                 </div>
                                 <!-- btn fo sign-up -->
-                            <div class="text-center mb-3">
-                                <button class="btn btn-success btn-lg">
-                                    Sign-up
-                                </button>
+                                <div class="text-center mb-3">
+                                    <button class="btn btn-success btn-lg">
+                                        Sign-up
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
-                
+                <!-- to do new busniess page or celebrity page -->
+                <div class="text-center my-5">
+                    <p><a href="#" class="text-primary fw-bold text-decoration-none">Create page </a>for your busniess
+                        or celebriy page</p>
+                </div>
             </div>
-            <!-- to do new busniess page or celebrity page -->
-            <div class="text-center my-5">
-                <p><a href="#" class="text-primary fw-bold text-decoration-none">Create page </a>for your busniess or celebriy page</p>
-            </div>
+            <!-- end of login page -->
         </div>
-        <!-- end of login page -->
-    </div>
-    <!-- end of - starting page content-->
-    <footer class="bg-white text-muted mt-3 fs-7 ps-5 py-2">
-        <div class="container mt-4">
-            <div class="d-flex flex-wrap">
-                <a href="#" class="text-decoration-none mx-2 mb-0">English (US)</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">हिंदी</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">தமிழ்</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">తెలుగు</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">ಕನ್ನಡ</a>
+        <!-- end of - starting page content-->
+        <footer class="bg-white text-muted mt-3 fs-7 ps-5 py-2">
+            <div class="container mt-4">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-decoration-none mx-2 mb-0">English (US)</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">हिंदी</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">தமிழ்</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">తెలుగు</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">ಕನ್ನಡ</a>
+                </div>
+                <hr>
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-decoration-none mx-2 mb-0">Help</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">Service</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">Feedback</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">APIs</a>
+                    <a href="#" class="text-decoration-none mx-2 mb-0">Meta</a>
+                </div>
+                <div class="mx-2 mt-2">
+                    <p>Facebook @ 2022</p>
+                </div>
             </div>
-            <hr>
-            <div class="d-flex flex-wrap">
-                <a href="#" class="text-decoration-none mx-2 mb-0">Help</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">Service</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">Feedback</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">APIs</a>
-                <a href="#" class="text-decoration-none mx-2 mb-0">Meta</a>
-            </div>
-            <div class="mx-2 mt-2">
-                <p>Facebook @ 2022</p>
-            </div>
-        </div>
-    </footer>
-    
-    <!-- custom js -->
-    <script src="app.js"></script>
-    <script src="https://kit.fontawesome.com/b6e54b3865.js" crossorigin="anonymous"></script>
-    <!-- Boostrap links -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-    crossorigin="anonymous"></script>
-</section>
-<!-- end of first page -->
-<section class="page-2">
-<div class="bg-white shadow fixed-top">
-    <div class="container-fluid">
-        <div class="row py-1">
-            <!-- logo and search -->
-            <div class="col d-flex">
-                <i class="fa-brands fa-facebook fs-1 text-primary"></i> 
-            <!-- search bar -->
-            <div class="bg-primary input-group ms-2">
-                <span class="input-group-prepend">
-                    <div class="input-group-text bg-danger w-60">
-                        <i class="fa-solid  fa-magnifying-glass"></i>
-                        <p>Search</p>
+        </footer>
+
+        <!-- custom js -->
+        <script src="app.js"></script>
+        <script src="https://kit.fontawesome.com/b6e54b3865.js" crossorigin="anonymous"></script>
+        <!-- Boostrap links -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            crossorigin="anonymous"></script>
+    </section>
+    <!-- end of first page -->
+    <section class="page-2">
+        <div class="bg-white shadow fixed-top">
+            <div class="container-fluid ">
+                <div class="row  position-relative">
+                    <!-- logo and search -->
+                    <div class="col d-flex align-items-center py-2">
+                        <!-- logo -->
+                        <i class="fa-brands fa-facebook fs-0 text-primary"></i>
+                        <!-- search bar -->
+                        <!-- desktop Search bar -->
+                        <div
+                            class="d-none d-lg-flex ms-2 ps-2 rounded-pill custom-search-bar d-flex align-items-center">
+                            <i class="ms-2 fa-solid  text-muted fa-magnifying-glass"></i>
+                            <input type="text" class="mx-1 text-muted" placeholder="Search Facebook">
+                        </div>
+                        <!-- Mobile  Search bar -->
+                        <div style="cursor: pointer;" class="ms-2 p-1 bg-new rounded-circle d-lg-none">
+                            <i class="fa-solid p-2  text-muted fa-magnifying-glass"></i>
+                        </div>
+                        <!-- End search bar -->
                     </div>
-                </span>
+                    <!-- menus -->
+                    <div class="col my-1 d-none d-lg-flex">
+                        <div class="custom-nav__btn text-muted">
+
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                        <div class="custom-nav__btn text-muted">
+
+                            <i class="fa-solid fa-user-group"></i>
+                        </div>
+                        <div class="custom-nav__btn text-muted">
+                            <i class="fa-solid fa-clapperboard"></i>
+
+                        </div>
+                        <div class="custom-nav__btn text-muted">
+                            <i class="fa-solid fa-store"></i>
+
+                        </div>
+                        <div class="custom-nav__btn text-muted">
+                            <i class="fa-solid fa-vr-cardboard"></i>
+                        </div>
+                    </div>
+                    <!-- account and more -->
+                    <div class="col custom-for-hover d-flex py-2 justify-content-end">
+                        <div style="width:45px;height: 45px;cursor: pointer;"
+                            class="bg-new justify-content-center d-flex align-items-center fs-5 me-2  rounded-circle">
+                            <i class="fa-solid fa-compass"></i>
+                        </div>
+                        <div style="width:45px;height: 45px;cursor: pointer;"
+                            class="bg-new justify-content-center d-flex align-items-center fs-5 me-2  rounded-circle">
+                            <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+                        <div style="width:45px;height: 45px;cursor: pointer;"
+                            class="bg-new justify-content-center d-flex align-items-center fs-5 me-2  rounded-circle">
+                            <i class="fa-regular fa-bell"></i>
+                        </div>
+                        <div style="width:45px;height: 45px;cursor: pointer;"
+                            class="bg-new justify-content-center d-flex align-items-center fs-5 me-2  rounded-circle">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-            <!-- menus -->
-            <div class="col">2</div>
-            <!-- account and more -->
-            <div class="col">3</div>
         </div>
-    </div>
-</div>
-</section>
+    </section>
 </body>
 
 </html>

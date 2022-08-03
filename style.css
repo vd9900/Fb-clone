@@ -1,5 +1,9 @@
+*{
+    list-style: none;
+}
+
 .fs-0{
-font-size: 3rem;
+font-size: 2.7rem;
 }
 .fs-7{
     font-size: .9rem;
@@ -8,13 +12,44 @@ font-size: 3rem;
 .bg-new{
     background-color: #dfe5ee;
 }
-.w-60{
-    min-width: 200px;
-    min-height: 40px;
-}
 .w-70{
     width:100%;
     max-width: 420px;
+}
+
+/* search bar */
+.custom-search-bar {
+    background-color: #dfe5ee;
+    min-width:240px;
+    height: 40px;
+}
+.custom-search-bar  input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+/* Navbar buttons */
+.custom-nav__btn{
+    /* border:1px solid black; */
+    width: 111px;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    /* left:5% !important; */
+
+}
+.custom-nav__btn:hover{
+    opacity: .8;
+    background-color:#dfe5ee ;
+}
+/* custom hover for last opitons in nav bar */
+.custom-for-hover div:hover{
+    background-color:#cad1db ;
 }
 /* DRY */
 .clg{
