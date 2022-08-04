@@ -1,67 +1,83 @@
-*{
+* {
     list-style: none;
 }
 
-.fs-0{
-font-size: 2.7rem;
+.fs-0 {
+    font-size: 2.7rem;
 }
-.fs-7{
+
+.fs-7 {
     font-size: .9rem;
 
 }
-.bg-new{
+
+.bg-new {
     background-color: #dfe5ee;
 }
-.w-70{
-    width:100%;
+
+.w-70 {
+    width: 100%;
     max-width: 420px;
 }
 
 /* search bar */
 .custom-search-bar {
     background-color: #dfe5ee;
-    min-width:240px;
+    min-width: 240px;
     height: 40px;
 }
-.custom-search-bar  input{
+
+.custom-search-bar input {
     border: none;
     background-color: transparent;
     outline: none;
 
 }
+
 /* Navbar buttons */
-.custom-nav__btn{
+.custom-nav__btn {
     /* border:1px solid black; */
     width: 111px;
-    height:100%;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     font-size: 24px;
     cursor: pointer;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* left:5% !important; */
 
 }
-.custom-nav__btn:hover{
-    opacity: .8;
-    background-color:#dfe5ee ;
+
+.custom-nav__btn:hover {
+    /* opacity: .8; */
+    background-color: #eef2f8;
 }
+
 /* custom hover for last opitons in nav bar */
-.custom-for-hover div:hover:not(:last-child){
-    background-color:#cad1db ;
+.custom-hover:hover {
+    /* background-color:#ebeef1 ; */
+    background-color: #d3d8e0;
 }
+
+.custom-hover-2:hover{
+    background-color: #eef2f8;
+}
+
 /* radius for many options */
-.custom-aside-right div :not(:last-child){
-    
-    border-radius: 10px;
+.custom-aside-right div,
+span :not(:last-child) {
+
+    /* border-radius: 10px; */
     cursor: pointer;
 }
-.custom-aside-right{
+
+.custom-aside-right {
 
     overflow-y: scroll;
 }
+
 /* DRY */
-.clg{
+.clg {
     display: none;
 }
