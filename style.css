@@ -1,6 +1,9 @@
 * {
     list-style: none;
 }
+body{
+    max-height: 100vh;
+}
 
 .fs-0 {
     font-size: 2.7rem;
