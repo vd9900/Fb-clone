@@ -1,5 +1,6 @@
 * {
     list-style: none;
+    line-height:18px;
 }
 body{
     max-height: 100vh;
@@ -11,8 +12,13 @@ body{
 
 .fs-7 {
     font-size: .9rem;
-    font-size: .9rem;
-
+}
+.fs-8{
+    
+    font-size: 15px;
+}
+.fs-9{
+    font-size: 13px;
 }
 
 .bg-new {
@@ -51,6 +57,10 @@ body{
     /* border-radius: 10px; */
     /* left:5% !important; */
 
+}
+/* text decoration hover */
+.text-decoration-hover:hover{
+    text-decoration: underline !important;
 }
 
 .custom-nav__btn:hover {
