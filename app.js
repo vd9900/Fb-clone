@@ -20,3 +20,7 @@ function twoSum(nums, target) {
 const num = [2,7,11,15];
 const target = 9;
 (twoSum(num))
+const newObj = {
+    abg: "heelo",
+    kk:"kdasfl"
+}
