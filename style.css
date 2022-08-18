@@ -85,6 +85,7 @@ span :not(:last-child) {
 .custom-aside-right {
 
     overflow-y: scroll;
+    height: 100vh;
 }
 
 /* DRY */
