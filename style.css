@@ -77,7 +77,6 @@ body{
 .custom-aside-right div,
 span :not(:last-child) {
 
-    /* border-radius: 10px; */
     cursor: pointer;
 }
 
