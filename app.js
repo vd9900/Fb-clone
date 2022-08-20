@@ -17,10 +17,3 @@ function twoSum(nums, target) {
  console.log(anwarray)
     // return anwarray;
 };
-const num = [2,7,11,15];
-const target = 9;
-(twoSum(num))
-const newObj = {
-    abg: "heelo",
-    kk:"kdasfl"
-}
