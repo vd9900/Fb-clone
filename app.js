@@ -15,5 +15,4 @@ function twoSum(nums, target) {
  }
  }
  console.log(anwarray)
-    // return anwarray;
 };
