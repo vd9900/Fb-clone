@@ -14,5 +14,4 @@ function twoSum(nums, target) {
  }
  }
  }
- console.log(anwarray)
 };
