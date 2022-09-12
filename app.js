@@ -9,6 +9,4 @@ function twoSum(nums, target) {
      for(var j=i+1;j<nums.length;j++){
       console.log(i,j)
       if(nums[i]+nums[j]===target){
-             anwarray.push(i)
-
- }
+             anwarray.push(
