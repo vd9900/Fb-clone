@@ -5,4 +5,4 @@
 
 function twoSum(nums, target) {
     let anwarray =[];
- for(let i=0;i<nums.length;i++){
+ fo
