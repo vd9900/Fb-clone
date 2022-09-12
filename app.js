@@ -12,6 +12,3 @@ function twoSum(nums, target) {
              anwarray.push(i)
 
  }
- }
- }
-};
