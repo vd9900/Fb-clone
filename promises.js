@@ -1,4 +1,4 @@
-console.log
+console.
 
 const user = (email, name, callback) => {
     setTimeout(() => {
