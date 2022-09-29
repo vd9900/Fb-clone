@@ -1,4 +1,4 @@
-consol
+
 
 const user = (email, name, callback) => {
     setTimeout(() => {
