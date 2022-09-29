@@ -1,4 +1,4 @@
-console.log("Start")
+console.log("Start
 
 const user = (email, name, callback) => {
     setTimeout(() => {
